@@ -6,8 +6,13 @@ getCalUm(){
 }
 
 getCalDois(){
-    valor=$1
-    return $valor
+
+    valor=2
+    for multiplicador in 1 2 3 4 5 6 7 8 9
+    do
+    echo "$valor*$multiplicador = $[valor*multiplicador]"
+    done
+    return $valor 
 }
 
 getCalTres(){
@@ -65,4 +70,4 @@ case ${varNumero} in
     *) echo "Favor digitar numeros de 1 a 10 para o calculo :" ;;
 esac
 
-echo "Voce digitou o numero $?"
+echo "Voce digitou o numero $varNumero"
