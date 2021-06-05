@@ -12,7 +12,7 @@
 
 ## Atualizações
 
-- ADICIONADO = 1.0.0 
-	- Adicionada a função para criar tabuada de 2 no arquivo calculadora.sh
-- MODIFICADO = 1.0.0
-    - Modificada a última linha do arquivo par não fazer uma pergunta, mas informar qual o número ele solicitou para a tabuada
+- ADICIONADO = 1.0.1
+	- Adicionada a função para criar tabuada de 6 no arquivo calculadora.sh
+- MODIFICADO = 1.0.1
+    - Adicionado alguns comentarios dentro no escopo da funcao CalcSeis 

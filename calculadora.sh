@@ -6,7 +6,6 @@ getCalUm(){
 }
 
 getCalDois(){
-
     valor=2
     for multiplicador in 1 2 3 4 5 6 7 8 9
     do
@@ -28,11 +27,21 @@ getCalCinco(){
     valor=$1
     return $valor
 }
-
+##########################################################
+# funcao responsável por multiplicar a casa do númeral 6
+# variavel 'valor' recebe a casa que ira integrar a funcao
+###########################################################
 getCalSeis(){
-   valor=$1
+    valor=6
+    for multiplicador in 1 2 3 4 5 6 7 8 9
+    do
+    echo "$valor*$multiplicador = $[valor*multiplicador]"
+    done
     return $valor
 }
+###########################################################
+# fim da funcao CalcSeis
+###########################################################
 
 getCalSete(){
     valor=$1
